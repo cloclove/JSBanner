@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap');
+body {background-color: red;}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.part2 {  background-color: white; 
+}
+.part3 { background-color: black;}
+
+.modal-container {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@keyframes name-of-animation {
+    0%    { opacity: 0; }
+    100%   { opacity: 1; }
+  }
+@keyframes mynewmove {
+    from {top: 0px;}
+    to {top: 15px;}
+  }
+.modal-details {
+    background-color: white;
+    width: 35%;
+    text-align: center;
+    position: relative;
+    padding: 3rem;
+    color: rgb(14, 14, 14);
+    animation: mymove 1s infinite;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.modal-details i {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: grey;
+}
+
+/* Titre */
+ .modal-titre{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    font-family: fantasy;
+ }
+ 
+ .code {background-color: black;
+color: red;
+font-family: monospace;
+padding: 1rem;
+border-radius: 20px;
+
+}
+
+.btn-success {
+    height: 4rem;
+    background-color: rgb(137, 0, 0);
+    color: white;
+    padding: 1rem;
+    border: none;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(94, 0, 0);
+}
+
+.modal-container {
+    display: none;
+}
+.code {display: none;}
+
+img {width: 65%;}
+
+.price-standard {
+    color: #757575;
+    text-decoration: line-through;
+}
+
+h1 {font-family: 'Anybody', cursive;
+    ; color: white;}
+
+    .box {color: black; display: flex; }
+    .game {margin:1rem; text-align: center;}
+
+p {font-family: fantasy;}
+
+#back {width: 5%; position: sticky; top:60px;}
